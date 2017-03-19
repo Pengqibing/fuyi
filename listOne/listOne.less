@@ -1,0 +1,103 @@
+@charset "utf-8";
+//Variables
+@listOne-Font-Awesome:   "fa fa-angle-right";
+
+/*nav导航栏*/
+.fuYi_nav {
+  background: #222;
+}
+
+/*fuYi_box*/
+.fuYi_box {
+  -webkit-box-shadow: 1px 1px 16px #aaa;
+  -moz-box-shadow: 1px 1px 16px #aaa;
+  box-shadow: 1px 1px 16px #aaa;
+  .left_content {
+    width: 262px;
+    text-align: center;
+    > h3 {
+      color: #e1c071;
+      font-size: 18px;
+      font-weight: 600;
+      padding-bottom: 7px;
+    }
+    > .left_btn {
+      >.btn {
+        width: 200px;
+        margin: 5px 0;
+        text-align: left;
+      }
+     }
+    > table {
+      i {
+        color: #4b86c2;
+      }
+      span {
+        padding-left: 5px;
+      }
+    }
+  }
+  .right_content {
+    background: url("listOneImg/11.jpg")repeat-y 0 0;
+    padding: 15px;
+    overflow: hidden;
+    >h5 {
+      background: url("listOneImg/ea12.gif")no-repeat 0 0 ;
+      color:#4b86c2;
+      height: 40px;
+      line-height: 40px;
+      text-indent: 1em;
+      border-bottom: 1px solid #ccc;
+    }
+    >.title {
+      text-align: center;
+      background: #eee;
+      border: 1px solid #ccc;
+      overflow: hidden;
+      margin-top: 35px;
+      span {
+        font-size: 16px;
+        text-shadow:  1px 1px 2px #aaa;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+    >.list_item {
+      overflow: hidden;
+      text-align: left;
+      padding-top: 15px;
+      > div {
+        overflow: hidden;
+      }
+      i {
+        display: inline-block;
+        background: url("listOneImg/dot3.gif") no-repeat 0 0;
+        width: 10px;
+        height: 10px;
+      }
+      a {
+        display: inline-block;
+        height: 35px;
+        line-height: 35px;
+        width: 75%;
+        padding-left: 5px;
+        white-space: nowrap;
+        text-overflow: clip;
+      }
+      span {
+        display: block;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        color: #999;
+      }
+    }
+    >.page {
+      overflow: hidden;
+      height: 70px;
+      line-height: 70px;
+      padding: 0 60px 0 30px;
+    }
+  }
+
+}
